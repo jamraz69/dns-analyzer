@@ -1,9 +1,8 @@
 
-from flask import Flask, render_template, request, jsonify
+import streamlit as st
 import cv2
 import numpy as np
 import pandas as pd
-import os
 
 app = Flask(__name__)
 UPLOAD_FOLDER = "uploads"
